@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 11px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+html {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: url("../img/bg3.png") no-repeat center fixed;
+    background-size: cover;
+}
+
+body {
+    width: 45%;
+   
+    margin-top: 50px;
+    padding: 50px 50px;
+    border: none;  
+    
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 3px;
+    line-height: 35px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.wrapper {
+    padding: 10px;
+}
+
+div {
+    padding-top: 3px;
+    padding-bottom: 8px;
+}
+
+.title {
+    text-align: center;
+    font-weight: 700;
+}
+
+.email input {
+    width: 100%;
+}
+
+.name input {
+    width: 100%;
+}
+
+.password input {
+    width: 100%;
+}
+
+
+
+.phone input{
+    width: 100%;
+}
+
+.id input{
+	width: 100%;
+}
+
+
+
+.signUp button {
+    width: 100%;
+    
+}
+
+.signUp a{
+    border: 1px solid black;
+    border-radius: 3px;
+    line-height: 35px;
+    font-size: 12px;
+    padding: 10px;
+   
+    color:black;
+    
+}
+

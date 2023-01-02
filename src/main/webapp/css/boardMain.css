@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    border-radius: 5px;
+   
+  }
+  html { 
+    background: url("../img/bg3.png") no-repeat center fixed;
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    text-decoration-line : none;
+  }
+  
+
+  
+h3 > a{
+	transition: all 0.4s;
+    text-decoration-line : none;
+    color: black;
+  }
+
+  h3 > a:hover{
+   
+    background-color: aliceblue;
+  }
+
+.boardForm .inner tr > th{
+ width: 455px;
+}
+
+
+tr > td a{
+  text-decoration-line : none;
+    color: black;
+}
